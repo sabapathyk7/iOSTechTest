@@ -1,0 +1,675 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2614F762ADF70EE00AFE117 /* WiproiOSTechTestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614F752ADF70EE00AFE117 /* WiproiOSTechTestApp.swift */; };
+		A2614F782ADF70EE00AFE117 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614F772ADF70EE00AFE117 /* ContentView.swift */; };
+		A2614F7A2ADF70EF00AFE117 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2614F792ADF70EF00AFE117 /* Assets.xcassets */; };
+		A2614F7D2ADF70EF00AFE117 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2614F7C2ADF70EF00AFE117 /* Preview Assets.xcassets */; };
+		A2614F872ADF70F000AFE117 /* WiproiOSTechTestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614F862ADF70F000AFE117 /* WiproiOSTechTestTests.swift */; };
+		A2614F912ADF70F000AFE117 /* WiproiOSTechTestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614F902ADF70F000AFE117 /* WiproiOSTechTestUITests.swift */; };
+		A2614F932ADF70F000AFE117 /* WiproiOSTechTestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614F922ADF70F000AFE117 /* WiproiOSTechTestUITestsLaunchTests.swift */; };
+		A2614FA32ADF72C000AFE117 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614FA02ADF72C000AFE117 /* NetworkManager.swift */; };
+		A2614FA42ADF72C000AFE117 /* EndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614FA12ADF72C000AFE117 /* EndPoint.swift */; };
+		A2614FA52ADF72C000AFE117 /* NetworkError.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614FA22ADF72C000AFE117 /* NetworkError.swift */; };
+		A2614FA82ADF72F900AFE117 /* Quotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614FA72ADF72F900AFE117 /* Quotes.swift */; };
+		A2614FAB2ADF781000AFE117 /* QuoteViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614FAA2ADF781000AFE117 /* QuoteViewModel.swift */; };
+		A2614FAE2ADF79BD00AFE117 /* QuoteRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614FAD2ADF79BD00AFE117 /* QuoteRepository.swift */; };
+		A2614FB02ADF79FB00AFE117 /* QuoteListRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614FAF2ADF79FB00AFE117 /* QuoteListRepository.swift */; };
+		A2614FB52ADF864100AFE117 /* QuoteRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614FB42ADF864100AFE117 /* QuoteRowView.swift */; };
+		A2614FB72ADF865600AFE117 /* QuoteDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614FB62ADF865600AFE117 /* QuoteDetailView.swift */; };
+		A2614FB92ADF8CF300AFE117 /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614FB82ADF8CF300AFE117 /* MockNetworkManager.swift */; };
+		A2614FBB2ADF8D2900AFE117 /* MockNetworkManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2614FBA2ADF8D2900AFE117 /* MockNetworkManagerTests.swift */; };
+		A2614FBD2ADF8DA800AFE117 /* quoteData.json in Resources */ = {isa = PBXBuildFile; fileRef = A2614FBC2ADF8DA800AFE117 /* quoteData.json */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2614F832ADF70F000AFE117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2614F6A2ADF70EE00AFE117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2614F712ADF70EE00AFE117;
+			remoteInfo = WiproiOSTechTest;
+		};
+		A2614F8D2ADF70F000AFE117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2614F6A2ADF70EE00AFE117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2614F712ADF70EE00AFE117;
+			remoteInfo = WiproiOSTechTest;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2614F722ADF70EE00AFE117 /* WiproiOSTechTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WiproiOSTechTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2614F752ADF70EE00AFE117 /* WiproiOSTechTestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproiOSTechTestApp.swift; sourceTree = "<group>"; };
+		A2614F772ADF70EE00AFE117 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A2614F792ADF70EF00AFE117 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2614F7C2ADF70EF00AFE117 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A2614F822ADF70F000AFE117 /* WiproiOSTechTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproiOSTechTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2614F862ADF70F000AFE117 /* WiproiOSTechTestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproiOSTechTestTests.swift; sourceTree = "<group>"; };
+		A2614F8C2ADF70F000AFE117 /* WiproiOSTechTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WiproiOSTechTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2614F902ADF70F000AFE117 /* WiproiOSTechTestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproiOSTechTestUITests.swift; sourceTree = "<group>"; };
+		A2614F922ADF70F000AFE117 /* WiproiOSTechTestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiproiOSTechTestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A2614FA02ADF72C000AFE117 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		A2614FA12ADF72C000AFE117 /* EndPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EndPoint.swift; sourceTree = "<group>"; };
+		A2614FA22ADF72C000AFE117 /* NetworkError.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkError.swift; sourceTree = "<group>"; };
+		A2614FA72ADF72F900AFE117 /* Quotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Quotes.swift; sourceTree = "<group>"; };
+		A2614FAA2ADF781000AFE117 /* QuoteViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteViewModel.swift; sourceTree = "<group>"; };
+		A2614FAD2ADF79BD00AFE117 /* QuoteRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRepository.swift; sourceTree = "<group>"; };
+		A2614FAF2ADF79FB00AFE117 /* QuoteListRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteListRepository.swift; sourceTree = "<group>"; };
+		A2614FB42ADF864100AFE117 /* QuoteRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteRowView.swift; sourceTree = "<group>"; };
+		A2614FB62ADF865600AFE117 /* QuoteDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuoteDetailView.swift; sourceTree = "<group>"; };
+		A2614FB82ADF8CF300AFE117 /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		A2614FBA2ADF8D2900AFE117 /* MockNetworkManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManagerTests.swift; sourceTree = "<group>"; };
+		A2614FBC2ADF8DA800AFE117 /* quoteData.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = quoteData.json; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2614F6F2ADF70EE00AFE117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2614F7F2ADF70F000AFE117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2614F892ADF70F000AFE117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2614F692ADF70EE00AFE117 = {
+			isa = PBXGroup;
+			children = (
+				A2614F742ADF70EE00AFE117 /* WiproiOSTechTest */,
+				A2614F852ADF70F000AFE117 /* WiproiOSTechTestTests */,
+				A2614F8F2ADF70F000AFE117 /* WiproiOSTechTestUITests */,
+				A2614F732ADF70EE00AFE117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2614F732ADF70EE00AFE117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2614F722ADF70EE00AFE117 /* WiproiOSTechTest.app */,
+				A2614F822ADF70F000AFE117 /* WiproiOSTechTestTests.xctest */,
+				A2614F8C2ADF70F000AFE117 /* WiproiOSTechTestUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2614F742ADF70EE00AFE117 /* WiproiOSTechTest */ = {
+			isa = PBXGroup;
+			children = (
+				A2614FB12ADF7A3B00AFE117 /* Views */,
+				A2614FAC2ADF799D00AFE117 /* Repo */,
+				A2614FA92ADF780000AFE117 /* ViewModel */,
+				A2614FA62ADF72E500AFE117 /* Model */,
+				A2614F9F2ADF728400AFE117 /* Network */,
+				A2614F792ADF70EF00AFE117 /* Assets.xcassets */,
+				A2614F7B2ADF70EF00AFE117 /* Preview Content */,
+			);
+			path = WiproiOSTechTest;
+			sourceTree = "<group>";
+		};
+		A2614F7B2ADF70EF00AFE117 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A2614F7C2ADF70EF00AFE117 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A2614F852ADF70F000AFE117 /* WiproiOSTechTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2614F862ADF70F000AFE117 /* WiproiOSTechTestTests.swift */,
+				A2614FB82ADF8CF300AFE117 /* MockNetworkManager.swift */,
+				A2614FBA2ADF8D2900AFE117 /* MockNetworkManagerTests.swift */,
+				A2614FBC2ADF8DA800AFE117 /* quoteData.json */,
+			);
+			path = WiproiOSTechTestTests;
+			sourceTree = "<group>";
+		};
+		A2614F8F2ADF70F000AFE117 /* WiproiOSTechTestUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2614F902ADF70F000AFE117 /* WiproiOSTechTestUITests.swift */,
+				A2614F922ADF70F000AFE117 /* WiproiOSTechTestUITestsLaunchTests.swift */,
+			);
+			path = WiproiOSTechTestUITests;
+			sourceTree = "<group>";
+		};
+		A2614F9F2ADF728400AFE117 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				A2614FA12ADF72C000AFE117 /* EndPoint.swift */,
+				A2614FA22ADF72C000AFE117 /* NetworkError.swift */,
+				A2614FA02ADF72C000AFE117 /* NetworkManager.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		A2614FA62ADF72E500AFE117 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A2614FA72ADF72F900AFE117 /* Quotes.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A2614FA92ADF780000AFE117 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				A2614FAA2ADF781000AFE117 /* QuoteViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		A2614FAC2ADF799D00AFE117 /* Repo */ = {
+			isa = PBXGroup;
+			children = (
+				A2614FAD2ADF79BD00AFE117 /* QuoteRepository.swift */,
+				A2614FAF2ADF79FB00AFE117 /* QuoteListRepository.swift */,
+			);
+			path = Repo;
+			sourceTree = "<group>";
+		};
+		A2614FB12ADF7A3B00AFE117 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				A2614F752ADF70EE00AFE117 /* WiproiOSTechTestApp.swift */,
+				A2614F772ADF70EE00AFE117 /* ContentView.swift */,
+				A2614FB42ADF864100AFE117 /* QuoteRowView.swift */,
+				A2614FB62ADF865600AFE117 /* QuoteDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2614F712ADF70EE00AFE117 /* WiproiOSTechTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2614F962ADF70F000AFE117 /* Build configuration list for PBXNativeTarget "WiproiOSTechTest" */;
+			buildPhases = (
+				A2614F6E2ADF70EE00AFE117 /* Sources */,
+				A2614F6F2ADF70EE00AFE117 /* Frameworks */,
+				A2614F702ADF70EE00AFE117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WiproiOSTechTest;
+			productName = WiproiOSTechTest;
+			productReference = A2614F722ADF70EE00AFE117 /* WiproiOSTechTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2614F812ADF70F000AFE117 /* WiproiOSTechTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2614F992ADF70F000AFE117 /* Build configuration list for PBXNativeTarget "WiproiOSTechTestTests" */;
+			buildPhases = (
+				A2614F7E2ADF70F000AFE117 /* Sources */,
+				A2614F7F2ADF70F000AFE117 /* Frameworks */,
+				A2614F802ADF70F000AFE117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2614F842ADF70F000AFE117 /* PBXTargetDependency */,
+			);
+			name = WiproiOSTechTestTests;
+			productName = WiproiOSTechTestTests;
+			productReference = A2614F822ADF70F000AFE117 /* WiproiOSTechTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2614F8B2ADF70F000AFE117 /* WiproiOSTechTestUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2614F9C2ADF70F000AFE117 /* Build configuration list for PBXNativeTarget "WiproiOSTechTestUITests" */;
+			buildPhases = (
+				A2614F882ADF70F000AFE117 /* Sources */,
+				A2614F892ADF70F000AFE117 /* Frameworks */,
+				A2614F8A2ADF70F000AFE117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2614F8E2ADF70F000AFE117 /* PBXTargetDependency */,
+			);
+			name = WiproiOSTechTestUITests;
+			productName = WiproiOSTechTestUITests;
+			productReference = A2614F8C2ADF70F000AFE117 /* WiproiOSTechTestUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2614F6A2ADF70EE00AFE117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A2614F712ADF70EE00AFE117 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A2614F812ADF70F000AFE117 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A2614F712ADF70EE00AFE117;
+					};
+					A2614F8B2ADF70F000AFE117 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A2614F712ADF70EE00AFE117;
+					};
+				};
+			};
+			buildConfigurationList = A2614F6D2ADF70EE00AFE117 /* Build configuration list for PBXProject "WiproiOSTechTest" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2614F692ADF70EE00AFE117;
+			productRefGroup = A2614F732ADF70EE00AFE117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2614F712ADF70EE00AFE117 /* WiproiOSTechTest */,
+				A2614F812ADF70F000AFE117 /* WiproiOSTechTestTests */,
+				A2614F8B2ADF70F000AFE117 /* WiproiOSTechTestUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2614F702ADF70EE00AFE117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2614F7D2ADF70EF00AFE117 /* Preview Assets.xcassets in Resources */,
+				A2614F7A2ADF70EF00AFE117 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2614F802ADF70F000AFE117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2614FBD2ADF8DA800AFE117 /* quoteData.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2614F8A2ADF70F000AFE117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2614F6E2ADF70EE00AFE117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2614FA32ADF72C000AFE117 /* NetworkManager.swift in Sources */,
+				A2614F782ADF70EE00AFE117 /* ContentView.swift in Sources */,
+				A2614FA82ADF72F900AFE117 /* Quotes.swift in Sources */,
+				A2614FB02ADF79FB00AFE117 /* QuoteListRepository.swift in Sources */,
+				A2614FA42ADF72C000AFE117 /* EndPoint.swift in Sources */,
+				A2614F762ADF70EE00AFE117 /* WiproiOSTechTestApp.swift in Sources */,
+				A2614FA52ADF72C000AFE117 /* NetworkError.swift in Sources */,
+				A2614FB52ADF864100AFE117 /* QuoteRowView.swift in Sources */,
+				A2614FAE2ADF79BD00AFE117 /* QuoteRepository.swift in Sources */,
+				A2614FB72ADF865600AFE117 /* QuoteDetailView.swift in Sources */,
+				A2614FAB2ADF781000AFE117 /* QuoteViewModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2614F7E2ADF70F000AFE117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2614FBB2ADF8D2900AFE117 /* MockNetworkManagerTests.swift in Sources */,
+				A2614FB92ADF8CF300AFE117 /* MockNetworkManager.swift in Sources */,
+				A2614F872ADF70F000AFE117 /* WiproiOSTechTestTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2614F882ADF70F000AFE117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2614F932ADF70F000AFE117 /* WiproiOSTechTestUITestsLaunchTests.swift in Sources */,
+				A2614F912ADF70F000AFE117 /* WiproiOSTechTestUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2614F842ADF70F000AFE117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2614F712ADF70EE00AFE117 /* WiproiOSTechTest */;
+			targetProxy = A2614F832ADF70F000AFE117 /* PBXContainerItemProxy */;
+		};
+		A2614F8E2ADF70F000AFE117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2614F712ADF70EE00AFE117 /* WiproiOSTechTest */;
+			targetProxy = A2614F8D2ADF70F000AFE117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A2614F942ADF70F000AFE117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A2614F952ADF70F000AFE117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2614F972ADF70F000AFE117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WiproiOSTechTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saba.dev.WiproiOSTechTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2614F982ADF70F000AFE117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"WiproiOSTechTest/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saba.dev.WiproiOSTechTest;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2614F9A2ADF70F000AFE117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saba.dev.WiproiOSTechTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiproiOSTechTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WiproiOSTechTest";
+			};
+			name = Debug;
+		};
+		A2614F9B2ADF70F000AFE117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saba.dev.WiproiOSTechTestTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WiproiOSTechTest.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/WiproiOSTechTest";
+			};
+			name = Release;
+		};
+		A2614F9D2ADF70F000AFE117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saba.dev.WiproiOSTechTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiproiOSTechTest;
+			};
+			name = Debug;
+		};
+		A2614F9E2ADF70F000AFE117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.saba.dev.WiproiOSTechTestUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = WiproiOSTechTest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2614F6D2ADF70EE00AFE117 /* Build configuration list for PBXProject "WiproiOSTechTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2614F942ADF70F000AFE117 /* Debug */,
+				A2614F952ADF70F000AFE117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2614F962ADF70F000AFE117 /* Build configuration list for PBXNativeTarget "WiproiOSTechTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2614F972ADF70F000AFE117 /* Debug */,
+				A2614F982ADF70F000AFE117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2614F992ADF70F000AFE117 /* Build configuration list for PBXNativeTarget "WiproiOSTechTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2614F9A2ADF70F000AFE117 /* Debug */,
+				A2614F9B2ADF70F000AFE117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2614F9C2ADF70F000AFE117 /* Build configuration list for PBXNativeTarget "WiproiOSTechTestUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2614F9D2ADF70F000AFE117 /* Debug */,
+				A2614F9E2ADF70F000AFE117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2614F6A2ADF70EE00AFE117 /* Project object */;
+}
